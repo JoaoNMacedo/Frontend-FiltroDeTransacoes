@@ -1,0 +1,25 @@
+.Table {
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+.AllItems {
+  margin-top: 10px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 17px;
+}
+.TopTableItens {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+@media (max-width: 768px) {
+  .Table {
+    width: 90%;
+  }
+
+  .AllItems {
+    margin-top: 5px; 
+    font-size: 14px; 
+  }
+}

@@ -1,0 +1,103 @@
+.Container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+.Header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+  text-align: center;
+}
+.FilterContainer {
+  flex-direction: row;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 8%;
+  margin-bottom: -50px;
+}
+.FilterBox {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly; 
+  margin-bottom: -20px;
+}
+.TextContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-top: 10px; 
+  margin-bottom: 10px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.FilterInput {
+  opacity: 0.5;
+  padding: 5px;
+  margin-top: -15px; 
+  margin-bottom: 5px;
+  border: 1px solid #000000;
+  border-radius: 5px;
+  font-size: 16px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.ButtonContainer {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(255, 255, 255);
+}
+.SearchButton {
+  background-color: #E5591C;
+  padding: 10px 20px;
+  margin-bottom: 70px;
+  border-radius: 25px;
+  border-width: 0px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: rgb(255, 255, 255); 
+}
+.Saldos {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: #f0b59c;
+  border-radius: 50px;
+  margin-bottom: 30px; 
+  margin-left: 100px;
+  margin-right: 100px;
+}
+.TextSaldo {
+  margin-top: 10px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 17px;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (max-width: 768px) {
+  .FilterContainer {
+    flex-direction: column;
+    padding: 4%; 
+    margin-bottom: -70px;
+  }
+  .TextContainer {
+    align-items: center;
+    margin-top: 5px; 
+    margin-bottom: 5px; 
+  }
+  .Header {
+    padding: 20px;
+  }
+  .Input{
+   margin: 10px;
+  }
+  .SearchButton {
+    margin-top: 100px;
+    margin-bottom: 20px;
+  }
+  .Saldos {
+    margin-left: 20px; 
+    margin-right: 20px; 
+  }
+}
