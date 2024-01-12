@@ -1,26 +1,26 @@
-# PS-SuperaFrontendTest
+# Frontend Filtro de trasações.
 
-# Aplicação ReactJS - Teste Técnico
+## Aplicação ReactJS
 
-Este é um projeto ReactJS desenvolvido como parte de um teste técnico. A aplicação consiste em um frontend web com uma única página que permite ao usuário inserir três inputs, incluindo dois campos de data e um campo de texto. Esses valores são utilizados como parâmetros para uma requisição à API consumida, resultando em uma listagem de dados exibida na interface.
+Este é um projeto ReactJS que atua como um gerenciador de transações, proporcionando aos usuários uma interface intuitiva para filtrar e visualizar dados transacionais. A aplicação permite inserir informações através de três inputs, incluindo dois campos de data e um campo de texto. Esses dados servem como parâmetros para uma requisição à API, resultando na exibição de uma lista de transações na interface.
 
-## Funcionalidades
+### Funcionalidades
 
 - Interface de usuário simples com uma única página.
-- Três inputs para inserir dados: dois campos de data e um campo de texto.
-- Integração com uma API para buscar dados com base nos parâmetros inseridos.
-- Listagem dos dados retornados pela API na interface da aplicação.
+- Três inputs para inserção de dados: dois campos de data e um campo de texto.
+- Integração com uma API para buscar transações com base nos parâmetros inseridos.
+- Exibição das transações retornadas pela API na interface da aplicação.
 
-## Pré-requisitos
+### Pré-requisitos
 
 Antes de executar a aplicação, certifique-se de ter as seguintes ferramentas instaladas em sua máquina:
 
 - Node.js (versão 12 ou superior)
 - NPM (ou Yarn)
 
-## Como executar a aplicação
+### Como executar a aplicação
 
-1. Clone o repositório em sua máquina local:
+Clone o repositório em sua máquina local:
 
-   ```bash
-   git clone https://github.com/seu-usuario/reactjs-teste-tecnico.git
+```bash
+git clone https://github.com/seu-usuario/reactjs-gerenciador-transacoes.git
